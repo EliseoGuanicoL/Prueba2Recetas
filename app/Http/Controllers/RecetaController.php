@@ -79,14 +79,24 @@ class RecetaController extends Controller
         $img->save();
 
         //almacenar en la base de datos(sin modelo)
-        DB::table('recetas')->insert([
+        /**DB::table('recetas')->insert([
             'titulo' => $data['titulo'],
             'preparacion' => $data['preparacion'],
             'ingredientes' => $data['ingredientes'],
             'imagen' => $ruta_imagen,
             'user_id' => Auth::user()->id,
             'categoria_id' => $data['categoria']
-        ]);
+        ]);*/
+
+        //almacenar en la base de datos con modelo
+
+        auth()->user()->recetas()->create([
+            'titulo' => $data['titulo'],
+            'preparacion' => $data['preparacion'],
+            'ingredientes' => $data['ingredientes'],
+            'imagen' => $ruta_imagen,
+            'categoria_id' => $data['categoria']
+    ]);
 
         //dd( $request->all() );
         //Redirecionar
@@ -102,7 +112,7 @@ class RecetaController extends Controller
      */
     public function show(Receta $receta)
     {
-        //
+        return view('recetas.show',compact('receta'));
     }
 
     /**

@@ -23,7 +23,7 @@
 
                 <tr>
                     <td>{{ $receta->titulo }}</td>
-                    <td>{{ $receta->categoria_id }}</td>
+                    <td>{{ $receta->categoria->nombre }}</td>
                     <td>
                         <a href="" class="btn btn-danger">Eliminar</a>
                         <a href="" class="btn btn-dark">Editar</a>
