@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df8e9519-9c78-4a14-8153-740dc6f20d8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/recetas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recetas/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,7 @@
       <workItem from="1605827300516" duration="11284000" />
       <workItem from="1606114940056" duration="1901000" />
       <workItem from="1606276463169" duration="163000" />
-      <workItem from="1607474732401" duration="322000" />
+      <workItem from="1607474732401" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto Recetass con Laravel">
       <created>1605168764116</created>
@@ -204,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606116909687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Respaldo de proyecto.">
+      <created>1607475152840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607475152840</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Respaldo de proyecto.">
+      <created>1607475239092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607475239092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,20 +231,21 @@
     <MESSAGE value="Respaldo" />
     <MESSAGE value="Respaldo de proyecto." />
     <option name="LAST_COMMIT_MESSAGE" value="Respaldo de proyecto." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1607475143924">
+    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1607475225819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607475143924" />
+    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607475225819" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606276638426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606276638426" />
-    <state x="553" y="261" key="Github.ShareDialog" timestamp="1605169873992">
+    <state x="553" y="261" key="Github.ShareDialog" timestamp="1607475425850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="261" key="Github.ShareDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605169873992" />
+    <state x="553" y="261" key="Github.ShareDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607475425850" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1605836525199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
